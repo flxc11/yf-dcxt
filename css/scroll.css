@@ -1,0 +1,50 @@
+.Container {
+  position: absolute;
+  top: 0; left: 0;
+  width: 98%;
+  height: 200px;
+  z-index: 99;
+  margin-top: 20px;
+}
+#Scroller-1 { 
+  position: absolute; 
+  overflow: hidden;
+  width: 98%;
+  height: 200px;
+}
+#Scroller-1 p {
+  margin: 0; padding: 10px 20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-indent: 20px;
+  color: #6F6048;
+}
+.Scroller-Container {
+  position: absolute;
+  top: 0px; left: 0px;
+  width: 100%;
+}
+#Scrollbar-Container {
+  position: absolute;
+  top: 0; right: 10px;
+}
+.Scrollbar-Up {
+  cursor: pointer;
+  position: absolute;
+}
+.Scrollbar-Track {
+  width: 20px; height: 161px;
+  position: absolute;
+  top: 20px; left: 4px;
+  background: url("../images/scrollbar_track.jpg") repeat-y;
+}
+.Scrollbar-Handle {
+  position: absolute;
+  width: 9px; height: 60px;
+  cursor: pointer;
+}
+.Scrollbar-Down {
+  cursor: pointer;
+  position: absolute;
+  top: 187px;
+}

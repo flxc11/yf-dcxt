@@ -1,0 +1,106 @@
+﻿@charset "utf-8";
+/* CSS-Reset */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+body {
+    height: 100%;
+}
+html {
+    font-size: 100%;
+
+    -webkit-tap-highlight-color: transparent;/*==Add vertical scrollbar  Keeps page centered in all browsers regardless of content height==*/
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    height: 100%;
+
+}
+
+/**
+ * Remove default margin.
+ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,img,form{padding:0; margin:0;} 
+table,td,tr,th{font-size:12px;}
+li{list-style-type:none;list-style:none; }
+img{vertical-align:top;border:0;}
+ol,ul {list-style:none;}
+body,div,ul,li,h1,h2,h3,h4,h5,h6,ol,dl,dd,dt { font:normal 12px/24px "微软雅黑","Microsoft YaHei", "宋体", "SimSun", "黑体", "SimHei", Geneva, sans-serif; }
+/* 通用样式 */
+a {
+	text-decoration:none;
+	outline-style:none;
+} /* 针对IE */
+
+a:link,a:visited {
+	color:#292829;
+}
+a:hover,a:active {
+	color:#e13d07;
+}
+.fr {
+	float:right;
+}
+.fl {
+	float:left;
+}
+.clearfix:before,.clearfix:after{content:''; display:table;}.clearfix:after{clear:both;}.clearfix{*zoom:1;}
+* html .clearfix {height: 1%;}
