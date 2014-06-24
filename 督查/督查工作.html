@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="maximum-scale=1.0,width=device-width,initial-scale=1.0" />
 	<title>督查管理系统</title>
-	<link rel="stylesheet" href="css/Global.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/scroll.css">
-	<script src="js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/jsScroller.js"></script>
-	<script type="text/javascript" src="js/jsScrollbar.js"></script>
+	<link rel="stylesheet" href="../css/Global.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/scroll.css">
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../js/jsScroller.js"></script>
+	<script type="text/javascript" src="../js/jsScrollbar.js"></script>
 	<script>
 		var scroller  = null;
 		var scrollbar = null;
@@ -37,15 +37,15 @@
 				<span class="add"><a href="#">新建 </a></span>
 			</div>
 		</div>
-		<div class="logo"><img src="images/imglogo.jpg" alt=""></div>
+		<div class="logo"><img src="../images/imglogo.jpg" alt=""></div>
 	</div>
 	<div class="wraper">
 		<div class="main">
 			<div class="main-l">
 				<div class="left_menu_model">
-					<ul>
-						<li><a href="#" class="icon1">账号管理</a></li>
-						<li class="current"><a href="#" class="icon2">工作管理</a></li>
+					<ul class="clearfix">
+						<li><a href="账号管理.html">账号管理</a></li>
+						<li class="current"><a href="督查工作.html">督查工作</a></li>
 					</ul>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 											<div class="dc-list-r">
 								   				<div id="Scrollbar-Container">
 													<div class="Scrollbar-Track">
-													  <img src="images/scrollbar_handle.jpg" class="Scrollbar-Handle" />
+													  <img src="../images/scrollbar_handle.jpg" class="Scrollbar-Handle" />
 													</div>
 												</div>
 												<div class="Container">
@@ -124,15 +124,15 @@
 												   					</div>
 												   					<div class="write-cnt-in">
 												   						<div class="write-cnt-in-l">
-												   							<img src="images/imgaddpic.png" alt="">
-												   							<img src="images/imgaddarea.png" alt="" style="padding-top: 6px;">
+												   							<img src="../images/imgaddpic.png" alt="">
+												   							<img src="../images/imgaddarea.png" alt="" style="padding-top: 6px;">
 												   						</div>
 												   						<div class="write-cnt-in-r">
 												   							<textarea name="text1" id="" cols="30" rows="10"></textarea>
 												   							<div class="cnt-btn">
 												   								<div class="answer-r"><img src="images/imgsave.png" alt=""></div>
-												   								<i class="mradd"><img src="images/iconadd.png" alt=""></i>
-												   								<i class="mrpic"><img src="images/iconpic.png" alt=""></i>
+												   								<i class="mradd"><img src="../images/iconadd.png" alt=""></i>
+												   								<i class="mrpic"><img src="../images/iconpic.png" alt=""></i>
 												   							</div>
 												   						</div>
 												   					</div>
@@ -155,12 +155,12 @@
 												   						<span class="create-time">2012-7-12</span>
 												   					</h2>
 												   					<div class="list-item-cnt">统计浏览问题、问题响应、问题处理情况的权限，设置异常短信警报的触发条件和通知人员的规则的权限。
-																	<div class="cnt-img"><img src="images/imgp1.png" alt="">
+																	<div class="cnt-img"><img src="../images/imgp1.png" alt="">
 																	<span class="comment">(3)</span>
 																	</div>
 																	</div>
 																	<div class="list-item-answer">
-												   					<div class="answer-r"><img src="images/imgsave.png" alt=""></div>
+												   					<div class="answer-r"><img src="../images/imgsave.png" alt=""></div>
 												   						<div class="answer-l">
 												   							<span>回复：</span>
 												   							<input type="text" name="cnt" id="cnt">
@@ -228,18 +228,6 @@
 										</ul>
 									</div>
 								</div>
-								<div class="box-panel today-event">
-									<div class="box-panel-header">
-										<h4>今天日程</h4>
-									</div>
-									<div class="box-panel-body">
-										<div class="part-loading ng-hide"></div>
-										<div class="empty-panel min-height noborder">
-											<i class="icon-calendar-empty"></i><br>
-											<span>今天没有日程安排</span>
-										</div>
-									</div>
-								</div>
 								<div class="box-panel search clearfix" style="padding:10px;background: #fff;">
 									<form action="search">
 										<input type="submit" value=" " class="ipt-search">
@@ -254,5 +242,5 @@
 		</div>
 	</div>
 </body>
-<script src="js/common.js"></script>
+<script src="../js/common.js"></script>
 </html>

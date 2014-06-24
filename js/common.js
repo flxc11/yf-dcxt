@@ -35,6 +35,20 @@ $(function(){
     }, function() {
     	$(".item-state-list").hide();
     })
+    $(".pq-list ul li").hover(function() {
+        if(!$(".item-state-list").is(":animated")) {
+            $(this).find("span").css("display", "block");
+        }
+    }, function() {
+        $(this).find("span").hide();
+    })
+    $(".depart-list ul li").hover(function() {
+        if(!$(".ulli-depa5").is(":animated")) {
+            $(this).find("span").css("display", "block");
+        }
+    }, function() {
+        $(this).find("span").hide();
+    })
     //点击选择问题类型
     $(".item-state-list a").on("click", function() {
     	var _class = $(this)
